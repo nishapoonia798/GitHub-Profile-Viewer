@@ -1,9 +1,11 @@
 {
-  "name": "fyle-frontend-challenge",
+  "home": "https://nishapoonia798.github.io/Github-Profile-Viewer",
+  "name": "assignment-fyle-frontend-challenge",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "predeploy": "npm run build",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
