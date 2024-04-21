@@ -1,0 +1,23 @@
+<div *ngIf="githubRepos" class="card mt-3">
+  <div class="card-header bg-secondary text-white">
+    <h4>Github Repositories</h4>
+  </div>
+  <div class="card-body">
+    <div class="d-flex flex-wrap justify-content-between">
+      <div *ngFor="let repo of githubRepos" class="repo-card">
+        <div class="card border-primary mb-3" style="display: block; padding: 10px;border: 1px solid black; margin: 10px; width: 100%; height: 50%; grid-gap: 3rem; display: grid;  grid-template-columns: repeat(2,1fe);">
+          <div class="card-header bg-primary text-white">
+            <a [href]="repo.html_url" class="text-white" target="_blank">{{repo.name}}</a>
+          </div>
+          <div class="card-body text-primary">
+            <p class="card-text">{{repo.description}}</p>
+            <p>Languages:</p>
+            <ul>
+              <li *ngFor="let lang of repo.languages">{{ lang }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

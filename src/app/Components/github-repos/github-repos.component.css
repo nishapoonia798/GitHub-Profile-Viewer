@@ -1,0 +1,5 @@
+.repo-card {
+    width: calc(50% - 15px); /* Set each repo card to occupy 50% of the container width with some margin */
+    margin-bottom: 30px;
+  }
+  
