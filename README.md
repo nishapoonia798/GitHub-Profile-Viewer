@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fyle Frontend Challenge
 
 ## Who is this for?
@@ -41,3 +42,7 @@ Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app wil
 
 Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
 Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+=======
+# GitHub-Profile-Viewer
+An Angular application that allows users to effortlessly explore GitHub profiles. Simply enter a GitHub username, and the app fetches and displays the user's profile information along with their repositories. Explore GitHub profiles with ease using this intuitive web application!
+>>>>>>> 83b65f5381adc0ec73ea7615b2be125632a331a9
